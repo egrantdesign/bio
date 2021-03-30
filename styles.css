@@ -1,0 +1,79 @@
+body {
+    color: #ccc;
+    background-image: url("assets/e-patternbackground.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+  font-family: 'futura-pt-bold', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+}
+
+h2{
+  font-family: 'futura-pt', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  letter-spacing: 2px; 
+}
+.e-logo {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    max-width: 200px;
+    margin-top: -75;
+  }
+
+.name {
+      text-align: center;
+      margin-top: -100;
+  }
+
+  .icon-container{
+    grid-area: icon;
+    /* display: flex; 
+    justify-content: center; */
+    display: flex;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    column-gap: 100px;
+    margin-top: -20;
+  }
+  .icon-container img{
+  width: 50px; 
+  }  
+
+.links {
+      text-align: center;
+      margin-top: 30;
+      padding: .5px;
+      background-color: white;
+      width: 290px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 100px;
+  }
+
+a.links {
+    text-decoration: none;
+    color: black;
+    transition: color 0.5s; 
+}
+
+.bottom-text {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a.links:hover {
+    color: rgb(228, 61, 61);
+}
+
